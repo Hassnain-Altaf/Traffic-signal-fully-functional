@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:wheat
+}
+
+
+#LightWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}   
+
+#pipe {
+    background-color: #E7E9EB;
+    width: 10px;
+    height: 10rem;
+    margin-left: -27px;
+}
+
+#lightBase {
+    background-color: #6e6e6e;
+    width: 5rem;
+    height: 1rem;
+    margin-left: -27px;
+    border-radius: 10px;
+}
+
+#LightBtnWrapper {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+#OnBtn {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    outline: none;
+}
+
+#OnBtn:hover {
+    cursor: pointer;
+}
+
+#OffBtn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+#OffBtn:hover {
+    cursor: pointer;
+}

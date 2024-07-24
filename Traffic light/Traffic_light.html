@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light</title>
+    <link rel="stylesheet" href="Traffic_light.css">
+</head>
+<body>
+
+    <div id="LightWrapper">
+        <h2 style="margin: 10px;">Traffc Light</h2>
+        <svg height="16.5rem" width="10rem" xmlns="http://www.w3.org/2000/svg">
+            <rect width="8rem" height="16.5rem" x="0" y="0" rx="10" ry="10" fill="black" />  
+            <circle id="redLight" r="30" cx="63" cy="50" stroke="#E7E9EB" stroke-width="5" fill="red" />
+            <circle id="yellowLight" r="30" cx="63" cy="130" stroke="#E7E9EB" stroke-width="5" fill="yellow" opacity="0.5"/>
+            <circle id="greenLight" r="30" cx="63" cy="210" stroke="#E7E9EB" stroke-width="5" fill="green" opacity="0.5"/>
+        </svg> 
+        <div id="pipe"></div>
+        <div id="lightBase"></div>
+        <div id="LightBtnWrapper">
+            <button id="OnBtn" onclick="startTrafficLight()">Start Light</button>
+            <button id="OffBtn" onclick="stopTrafficLight()">Stop Light</button>
+        </div>
+    
+</div>
+    <script src="Traffic_light.js"></script>
+</body>
+</html>
